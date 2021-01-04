@@ -1,0 +1,71 @@
+.top-margin {
+    margin-top: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.heading-text {
+    color: #eee;
+    font-size: 1.5em;
+}
+
+.icon-background {
+    min-width: 2em;
+}
+
+.heading {
+    height: 60px;
+    min-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+}
+
+.icon-bgrd {
+    background-color: #777;
+    border-radius: 30px;
+}
+
+.asu-icon {
+    position: relative;
+
+    /* Center and scale the image nicely. */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading-menu {
+    font-size: 2.5em !important;
+    color: #eee;
+}
+.heading-text-color {
+    color: #eee;
+}
+
+.heading-text-size {
+    font-size: 20px;
+}
+
+.fixed-possition {
+    position: fixed;
+}
+
+#heading-icon-container {
+    min-width: 10%;
+    width: auto;
+    position: fixed;
+}
+
+svg.g.path {
+    stroke: #000000;
+    stroke-width: 5em;
+}

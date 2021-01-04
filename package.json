@@ -1,0 +1,57 @@
+{
+  "name": "react-typescript-webpack",
+  "version": "1.0.0",
+  "description": "A very simple starter project for using React,TypeScript and Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "deploy": "aws s3 sync dist/ s3://asunewleafwebsite",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "author": "Lin",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react-router-dom": "^5.1.7",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "jquery": "^3.5.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "primeicons": "^4.0.0-rc.2",
+    "primereact": "^4.2.1",
+    "raw": "^0.1.4",
+    "react": "^16.7.0",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.7.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-transition-group": "^4.4.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/react": "^16.8.1",
+    "@types/react-dom": "^16.0.11",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "source-map-loader": "^0.2.4",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.3.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

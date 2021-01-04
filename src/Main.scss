@@ -1,0 +1,22 @@
+.homepage-image {
+    /* Set page to fully occupy the entire page.*/
+    min-width: 100%;
+    min-height: 100%;
+    height: 700px;
+    width: auto;
+    position: relative;
+
+    /* URI to access background images.*/
+    background-image: url(homepage_background.jpg);
+
+    /* Center and scale the image nicely. */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage-image:after {
+    content: "";
+    z-index: -1;
+    opacity: 0;
+}
